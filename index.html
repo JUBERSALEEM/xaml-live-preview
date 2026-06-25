@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XAML Live Preview</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Monaco Editor (VS Code like editor) -->
+  <script src="https://unpkg.com/monaco-editor@0.44.0/min/vs/loader.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="editor">
+    <h2>XAML Editor</h2>
+    <div id="editorBox"></div>
+  </div>
+
+  <div class="preview">
+    <h2>Live Preview</h2>
+    <div id="previewBox"></div>
+  </div>
+
+</div>
+
+<script src="parser.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
